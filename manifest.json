@@ -1,0 +1,24 @@
+{
+   "author": "Daniel Lucks",
+   "browser_action": {
+      "default_icon": "images/icon-24.png",
+      "default_popup": "popup/index.html"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "This extension is to inspect the HTML source of a website and to display SEO relevant information.",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png"
+   },
+   "manifest_version": 2,
+   "name": "SEO-HTML",
+   "permissions": [ "tabs" ],
+   "short_name": "SEO-HTML",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3.2"
+}

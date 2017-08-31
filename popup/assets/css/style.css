@@ -1,0 +1,135 @@
+html
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    width: 360px;
+    max-height: 600px;
+    color: #222222;
+    text-align: left;
+    padding: 0px 10px 10px 10px;
+    margin: 0;
+}
+
+h1
+{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.panel
+{
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-heading
+{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+}
+
+.panel .panel-body
+{
+    overflow-y: hidden;
+    height: 0px;
+    margin-bottom: -1px;
+}
+
+.panel.open .panel-body
+{
+    padding: 15px 15px 10px 15px;
+    margin-bottom: 0;
+    height: auto;
+}
+
+.panel-body .row
+{
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.panel-default
+{
+    border-color: #dddddd;
+}
+
+.panel-default > .panel-heading
+{
+    color: #333333;
+    background-color: #f5f5f5;
+    border-color: #dddddd;
+}
+
+.badge
+{
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    line-height: 1;
+    color: #777777;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    float: right;
+    cursor: pointer;
+
+    -webkit-transition-property: background-color, border-color;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-in;
+}
+
+.badge:hover
+{
+    border-color: #3db5d8;
+    background-color: #d9f7ff;
+}
+
+.count
+{
+    font-size: 12px;
+    margin-left: 5px;
+    color: #777777;
+}
+
+.author
+{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.author a
+{
+    text-decoration: none;
+}
+
+.author a:hover
+{
+    text-decoration: underline;
+    color: #888;
+}
+
+.author a:focus
+{
+    outline: none ! important;
+}
+
+.spinner
+{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 50px auto;
+}

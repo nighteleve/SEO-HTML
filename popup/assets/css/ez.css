@@ -10,7 +10,7 @@
  * we reset this value in the next rule so content is left aligned.
  */
 
-body {text-align: center;}
+body {text-align: center;} /* seo 수정 */
 
 /*
  * This wrapper, first child of body, is used to wrap "ez-css" modules.
